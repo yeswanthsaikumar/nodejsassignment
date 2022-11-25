@@ -5,7 +5,6 @@ const app = express();
 const port = 3000;
 const mongoose = require('mongoose'); //to connect to mongodb
 
-//mongodb+srv://Ashita:password@cluster0.mwavz.mongodb.net/resultManagement?retryWrites=true&w=majority
 //connect to mongodb and listen to requests
 mongoose.connect("mongodb://localhost:27017/latestdb", {
   useNewUrlParser: true,
